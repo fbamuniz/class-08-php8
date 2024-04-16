@@ -8,9 +8,33 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+    $num1 = 10;
+    $num2 = 3;
+
+    // Adição
+    echo $num1 + $num2 . "<br>";
+
+    // Subtração
+    echo $num1 - $num2 . "<br>";
+
+    // Multiplicação
+    echo $num1 * $num2 . "<br>";
+
+    // Divisão
+    echo $num1 / $num2 . "<br>";
+
+    // Resto da divisão
+    echo $num1 % $num2 . "<br>";
+
+    // Potenciação
+    echo pow($num1, $num2) . "<br>";
+
+    // Radiciação
+    echo sqrt($num1) . "<br>";
+
+    // Arredondamento
+    echo round(3.355555555,2)
+       
     ?>
 </body>
 </html>

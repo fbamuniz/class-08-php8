@@ -33,8 +33,8 @@
     echo sqrt($num1) . "<br>";
 
     // Arredondamento
-    echo round(3.355555555,2)
-       
+    echo round(3.355555555, 2)
+
     ?>
 </body>
 </html>

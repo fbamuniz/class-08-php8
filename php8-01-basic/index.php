@@ -8,9 +8,9 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+    $nome = "Fred"; //Case Sensitive
+    $cidade = "Registro";
+    echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
     ?>
 </body>
 </html>

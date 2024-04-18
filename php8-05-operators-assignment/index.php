@@ -8,9 +8,8 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+$num = 10;
+$num += 5;
     ?>
 </body>
 </html>

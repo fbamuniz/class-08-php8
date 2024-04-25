@@ -8,8 +8,9 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $resultado = ($nome=="Fred")?"Professor":"Aluno";
+    $texto = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum reprehenderit facere odio expedita suscipit laboriosam amet autem neque possimus dolorum!";
+    echo substr($texto,5,9);         
     ?>
+    <hr>
 </body>
 </html>

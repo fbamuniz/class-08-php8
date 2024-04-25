@@ -8,9 +8,15 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+     /*
+        > maior
+        < menor
+        >= maior ou igual
+        <= menor ou igual
+        != diferente
+    */
+        $valor = 10;
+        if($valor==10){ echo "O valor é 10";}        
     ?>
 </body>
 </html>

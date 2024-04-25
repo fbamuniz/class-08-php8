@@ -8,9 +8,15 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+    $site = "https://github.com/fbamuniz/";
+    $aula = "php";
+    if($aula=="php"){
+        header("location:".$site);
+    } else {
+        echo "Aula inexistente!";
+    }
+    
     ?>
+    <hr>
 </body>
 </html>

@@ -8,8 +8,12 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $resultado = ($nome=="Fred")?"Professor":"Aluno";
+    // Trabalhando com valores de tempo
+    echo date("d/m/y") . "<br>".
+         date("d/m/Y") . "<br>".
+         date("H:i") . "<br>".
+         date("H:i:s") . "<br>";             
     ?>
+    <hr>
 </body>
 </html>

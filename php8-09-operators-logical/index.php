@@ -7,10 +7,14 @@
     <title>PHP8</title>
 </head>
 <body>
-    <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+<?php
+     /*
+        & ou and, significa "e"
+        | ou or, significa "ou"
+    */
+        $valor1 = 10;
+        $valor2 = 20;
+        if($valor1==10 and $valor2==20 ){ echo "Os valores estão corretos!";}        
     ?>
 </body>
 </html>

@@ -8,8 +8,13 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $resultado = ($nome=="Fred")?"Professor":"Aluno";
+    $texto = "";
+    if(strlen($texto) < 1){
+        echo "O campo texto não pode ser vazio!";
+    } else {
+        echo "Você digitou: $texto";
+    }       
     ?>
+    <hr>
 </body>
 </html>

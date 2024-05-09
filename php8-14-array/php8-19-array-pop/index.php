@@ -8,9 +8,20 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+    /*
+     Neste exemplo, a função array_pop() é utilizada para remover o último elemento de um array.
+     */
+
+    // Criando um array com nomes de frutas
+    $frutas = array("Maçã", "Banana", "Morango", "Uva");
+
+    // Removendo o último elemento do array
+    $ultimaFruta = array_pop($frutas);
+
+    // Imprimindo a fruta removida e o array resultante
+    echo "A última fruta removida foi: $ultimaFruta\n";
+    echo "O array de frutas restante é:\n";
+    print_r($frutas);
     ?>
 </body>
 </html>

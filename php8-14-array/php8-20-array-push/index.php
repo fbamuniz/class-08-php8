@@ -8,9 +8,18 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+    /**
+     * Neste exemplo, a função array_push() é utilizada para adicionar um elemento ao final de um array.
+     */
+
+    // Criando um array com nomes de cores
+    $cores = array("Vermelho", "Verde", "Azul");
+
+    // Adicionando um novo elemento ao final do array
+    array_push($cores, "Amarelo");
+
+    // Imprimindo o array atualizado
+    print_r($cores);
     ?>
 </body>
 </html>

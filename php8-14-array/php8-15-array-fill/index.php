@@ -8,9 +8,15 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+    // Neste exemplo, a função array_fill() cria um array com 5 elementos,
+    // todos preenchidos com o valor "João". Isso significa que o array
+    // resultante terá o nome "João" em todas as posições, neste caso, 5 vezes.
+
+    // Criando um array com 5 elementos, preenchidos com o valor "João"
+    $fillArray = array_fill(0, 5, "João");
+
+    // Imprimindo o array
+    print_r($fillArray);
     ?>
 </body>
 </html>

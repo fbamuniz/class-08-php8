@@ -8,9 +8,20 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+    /*
+    Neste exemplo, a função array_shift() é utilizada para remover e retornar o primeiro elemento de um array. Os índices dos elementos também são reorganizados e Terça passa da posição 1 para 0.
+     */
+
+    // Criando um array com nomes de dias da semana
+    $diasSemana = array("Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo");
+
+    // Removendo e armazenando o primeiro elemento do array
+    $primeiroDia = array_shift($diasSemana);
+
+    // Imprimindo o primeiro dia removido e o array resultante
+    echo "O primeiro dia removido foi: $primeiroDia\n";
+    echo "O array de dias da semana restante é:\n";
+    print_r($diasSemana);
     ?>
 </body>
 </html>

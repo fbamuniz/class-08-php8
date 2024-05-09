@@ -8,9 +8,23 @@
 </head>
 <body>
     <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+    /*
+     Neste exemplo, a função array_map() é utilizada para aplicar uma função a cada elemento de um array. Aqui, estamos usando array_map() para adicionar um sobrenome a cada nome no array.
+     */
+
+    // Função para adicionar um sobrenome a um nome
+    function adicionarSobrenome($nome) {
+        return $nome . " Silva";
+    }
+
+    // Criando um array com nomes de pessoas
+    $nomes = array("João", "Maria", "Pedro", "Ana");
+
+    // Aplicando a função adicionarSobrenome() a cada elemento do array
+    $nomesComSobrenome = array_map("adicionarSobrenome", $nomes);
+
+    // Imprimindo o array resultante
+    print_r($nomesComSobrenome);
     ?>
 </body>
 </html>

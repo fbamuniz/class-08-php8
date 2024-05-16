@@ -7,10 +7,13 @@
     <title>PHP8</title>
 </head>
 <body>
-    <?php
-        $nome = "Fred";
-        $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
-    ?>
-</body>
+
+<?php
+$produto_cod = 25;
+$produto_nome = "Bolacha Doce Redonda";
+?>
+
+<a href="destino.php?id_produto_cod=<?php echo $produto_cod ?>&id_produto_nome=<?php echo $produto_nome ?>">Exibir</a>
+
+</body>    
 </html>

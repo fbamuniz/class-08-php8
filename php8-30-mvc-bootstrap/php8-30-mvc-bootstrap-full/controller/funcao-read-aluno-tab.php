@@ -8,7 +8,7 @@
                     <td>$exibe[1]</td>
                     <td>$exibe[2]</td>
                     <td>$exibe[3]</td>
-                    <td class='text-center'><a href='#' class='btn btn-success'>Editar</a></td>
+                    <td class='text-center'><a href='../view/v_edit.php?ida=$exibe[0]' class='btn btn-success'>Editar</a></td>
                     <td class='text-center'><a href='../controller/funcao-delete-aluno.php?ida=$exibe[0]' class='btn btn-danger'>Excluir</a></td>
                 </tr>";       
             }

@@ -4,6 +4,7 @@
 <a href="index.php" class="btn btn-primary">Voltar</a>
 </div>
 <div class="container mt-2 bg-white p-3 rounded">
+<h1>Cadastrar informações</h1>    
 <form action="../controller/funcao-create-aluno.php" method="post">
     <label class="form-label pt-3">Nome</label>
     <input type="text" class="form-control" name="campo_nome">

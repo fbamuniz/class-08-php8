@@ -9,6 +9,7 @@
     <thead>
         <tr>
             <th class="text-center">Código</th>
+            <th class="text-center">Foto</th>
             <th class="text-center">Nome</th>
             <th class="text-center">Cidade</th>
             <th class="text-center">Curso</th>
@@ -20,7 +21,7 @@
     </tbody>
     <tfoot>
         <tr>
-            <td colspan="6" class="text-center">Rodapé da Tabela</td>
+            <td colspan="7" class="text-center">Rodapé da Tabela</td>
         </tr>
     </tfoot>
 </table>

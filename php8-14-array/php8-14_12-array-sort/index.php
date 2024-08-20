@@ -19,7 +19,10 @@
     sort($array);
 
     // Comentário: Exibindo o resultado usando a função print_r
+<<<<<<< HEAD:php8-14-array/php8-14_12-array-sort/index.php
     echo "Array ordenado:\n";
+=======
+>>>>>>> c52888aa1f591c0837b6abd5d39440b67ce863ba:php8-14-array/php8-26-array-sort/index.php
     print_r($array);
     ?>
 </body>

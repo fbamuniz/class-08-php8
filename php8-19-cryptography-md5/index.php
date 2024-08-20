@@ -31,7 +31,7 @@
         echo "A verificação do hash falhou.\n";
     }
     ?>
-    f
+    
 </body>
 
 </html>

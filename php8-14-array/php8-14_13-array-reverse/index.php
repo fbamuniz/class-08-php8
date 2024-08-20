@@ -19,7 +19,6 @@
     $array_reverso = array_reverse($array);
 
     // Comentário: Exibindo o resultado usando a função print_r
-    echo "Array invertido:\n";
     print_r($array_reverso);
     ?>
 </body>

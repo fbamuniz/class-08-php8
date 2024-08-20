@@ -20,6 +20,7 @@
 
     // Comentário: Exibindo o resultado usando a função print_r
     echo "Array ordenado:\n";
+    print_r($array);
     ?>
 </body>
 

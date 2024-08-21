@@ -10,7 +10,7 @@
     <?php
         $nome = "Fred";
         $cidade = "Registro";
-        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b>.";
+        echo "O aluno <b>$nome</b> mora na cidade de <b>$cidade</b> .";
     ?>
 </body>
 </html>

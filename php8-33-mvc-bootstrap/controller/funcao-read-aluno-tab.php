@@ -10,8 +10,8 @@
                     <td>$exibe[3]</td>
                     <td>$exibe[4]</td>
                     <td class='text-center'><a href='../view/v_edit.php?ida=$exibe[0]' class='btn btn-success'>Editar</a></td>
-                    <td class='text-center'><a href='../controller/funcao-delete-aluno.php?ida=$exibe[0]&idf=$exibe[1]' class='btn btn-danger'>Excluir</a></td>
+                    <td class='text-center'><button type='button' class='btn btn-danger' data-bs-toggle='modal' data-bs-target='#exampleModal'>Excluir</button></td>
                 </tr>";       
             }
-    } 
+    }   
  ?>

@@ -15,7 +15,7 @@
     // Criando um array com nomes de cidades
     $cidades = array("São Paulo", "Rio de Janeiro", "Belo Horizonte", "Salvador");
 
-    // Removendo o elemento "Belo Horizonte" do array. Se fosse pra remover São Paulo e Rio de Janeiro, logo seria: array_splice($cidades, 0, 2);
+    // Removendo o elemento "Belo Horizonte" do array. Se fosse pra remover São Paulo e Rio de Janeiro, logo seria: array_splice($cidades, 0, 1);
     array_splice($cidades, 2, 1);
 
     // Imprimindo o array atualizado

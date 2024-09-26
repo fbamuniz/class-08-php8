@@ -3,8 +3,8 @@
 $cookie_name = "user";
 $cookie_value = "CPS";
 
-// Define o tempo de expiração do cookie para 1 hora a partir de agora
-$cookie_expiration = time() + 3600; // 3600 segundos = 1 hora
+// Define o tempo de expiração do cookie para 5 segundos a partir de agora
+$cookie_expiration = time() + 5;
 
 // Define o caminho onde o cookie está disponível
 $cookie_path = "/"; // O cookie estará disponível em todo o site

@@ -6,7 +6,7 @@
 		if (move_uploaded_file($arquivo['tmp_name'][$k], $destino)) {
 			echo "Arquivo(s) enviado(s) com sucesso!";
 		} else {
-			echo "Falha ao enviar o(s) arquivo(s)";
+			echo "Falha ao enviar o(s) arquivo(s)...";
 		}
 	}
 ?>

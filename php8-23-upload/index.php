@@ -7,7 +7,6 @@
 </head>
 <body>
     <form name="upload" enctype="multipart/form-data" method="post" action="upload.php">
-    <input type="hidden" name="MAX_FILE_SIZE" value="99999999">
         <input type="file" name="arquivo[]" multiple="multiple" />
         <input name="enviar" type="submit" value="Enviar">
     </form>
